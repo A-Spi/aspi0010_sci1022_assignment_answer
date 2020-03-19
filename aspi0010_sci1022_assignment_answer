@@ -6,3 +6,4 @@ cd /usr/lib - changes the directory to usr/lib
 ls -l ~/ebooks - absolute path to show bytes
 cd ~/ebooks- to do relative path to ebooks
 ls -l hamlet.txt - to show the bytes from the relative path
+wc hamlet.txt - shows the lines, words and bytes of hamlet
