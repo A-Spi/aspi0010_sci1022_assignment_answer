@@ -2,3 +2,5 @@ cd ~- at ~ directory
 mkdir ebooks- makes ebooks directory
 cd ebooks- does to ebooks directory
 curl http://www.gutenberg.org/cache/epub/2265/pg2265.txt -o hamlet.txt - adds hamlet to the hamlet.txt file
+cd /usr/lib - changes the directory to usr/lib
+ls -l ~/ebooks - absolute path to show bytes
