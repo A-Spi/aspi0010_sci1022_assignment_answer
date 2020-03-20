@@ -11,3 +11,6 @@ man head - to get the manual for head and tail to find line 3447
 head -3448 hamlet.txt |tail -3447 - printed a large amount of lines from hamlet
 head -3448 hamlet.txt |tail -1 - printed out a line of space (enter bar)
 head -3448 hamlet.txt |tail -2 - printed line 3447
+man grep - to find the flag that is case insentsitive
+grep -i hamlet hamlet.txt |wc - to show all of the hamlet words that is not case sensitive
+grep hamlet hamlet.txt |wc - to check that the -i flag works to make it case insensitive 
