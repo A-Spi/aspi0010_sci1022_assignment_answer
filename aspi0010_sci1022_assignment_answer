@@ -7,3 +7,7 @@ ls -l ~/ebooks - absolute path to show bytes
 cd ~/ebooks- to do relative path to ebooks
 ls -l hamlet.txt - to show the bytes from the relative path
 wc hamlet.txt - shows the lines, words and bytes of hamlet
+man head - to get the manual for head and tail to find line 3447
+head -3448 hamlet.txt |tail -3447 - printed a large amount of lines from hamlet
+head -3448 hamlet.txt |tail -1 - printed out a line of space (enter bar)
+head -3448 hamlet.txt |tail -2 - printed line 3447
